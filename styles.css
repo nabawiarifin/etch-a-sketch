@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#sketch-container{
+    width: 1000px;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
